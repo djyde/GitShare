@@ -1,0 +1,33 @@
+doctype 5
+html
+    head
+        link(rel='stylesheet',href='/stylesheets/global.css')
+        link(rel='stylesheet',href='/stylesheets/index.css')
+    body
+    div#header
+        table#headtable
+            tbody
+                tr
+                    td
+                        // img(src="/images/logo.png")
+                    td
+                        a(href='/') 
+                            b GitShare
+                    td
+                        a(href='/submit') Submit
+                    td
+                        a.log(href='/login') 
+                            b login
+    block content
+    div#footer
+        ul
+            li(style="margin-right: 3px;")
+                a(href="/")
+                    b GitShare 
+            li of 
+                a(href="http://djyde.github.com") Randy
+            li Power by
+            li 
+                a(href="http://nodejs.org") Node.js
+            li
+                a(href="http://expressjs.com") Express

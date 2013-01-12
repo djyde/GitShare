@@ -1,0 +1,48 @@
+body {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif;
+  margin-left: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#header{
+    width: 960px;
+    padding: 3px;
+    background-color: #D1EAD2;
+}
+
+#headtable td{
+    padding-right: 10px;
+}
+
+#footer{
+    width: 960px;
+}
+
+#footer a{
+    color: #4183C4;
+
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
+#footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+#footer li{
+    float: left;
+    margin-right: 10px;
+}
+
+.log{
+    color: #4183C4;
+}
