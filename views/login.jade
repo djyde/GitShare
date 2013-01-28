@@ -1,0 +1,32 @@
+extends layout
+
+block content
+
+    div#login
+            h3 登录
+        form#loginForm(action='/login',method='POST')
+            
+            p
+                label(for='username') 用户名:
+            p
+                input(type='text',id='username')
+            p
+                label(for='password') 密码:
+            p
+                input(type='password',id='password')
+            p
+                input.btn(type='submit',value='登录')     
+        p
+            
+        h3 注册   
+        form#signupForm(action='/signup',method='POST')
+            p
+                label(for='sign_username') 用户名:
+            p
+                input(type='text',id='sign_username')
+            p
+                label(for='sign_password') 密码:
+            p
+                input(type='password',id='sign_password')
+            p
+                input.btn(type='submit',value='注册')

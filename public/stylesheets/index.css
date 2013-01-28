@@ -19,6 +19,10 @@
 	margin-bottom: 30px;
 }
 
+.repoName:hover{
+	color: #69C;
+}
+
 p{
 	margin: 5px;
 }

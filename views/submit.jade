@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	form#subForm
+		p 
+			b
+				label RepoName:
+		p 
+			input(type='text',id='reponame')
+		p
+			b 
+				label RepoURL:
+		p
+			input(type='text',id='repourl',style='width: 400px;')
+		p
+			input.btn(type='submit',value='提交链接')

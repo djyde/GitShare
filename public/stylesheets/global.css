@@ -46,3 +46,10 @@ a {
 .log{
     color: #4183C4;
 }
+
+.btn{
+    border: 1px gray solid;
+    cursor: pointer;
+    background-color: #D1EAD2;
+    padding: 4px;
+}
