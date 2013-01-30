@@ -7,16 +7,13 @@ block content
             // p #{result[i].repoURL}
             div.main
                 div(style='float: left; margin-right: 20px;margin-bottom: 25px;')
-                    img(style='width:35px;height: 35px;',src='http://www.gravatar.com/avatar/00000000000000000000000000000000')
+                    img(style='width:35px;height: 35px;',src='http://www.gravatar.com/avatar/testtest')
                 div
 
                     p
-                        a.repoName(href= #{result[i].repoURL}) 
+                        a.repoName(href='#{result[i].repoURL}') 
                             span(style='margin-right: 20px; font-size: 18px')
                                 b #{result[i].repoName}
                     p(style='margin: 0',style='color: #666').
                         #{result[i].desc}
             - }
-                        
-        div#page
-            // page....
